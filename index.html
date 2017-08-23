@@ -89,7 +89,7 @@
 									<p>Just a little bit about myself before we get started and apologies in advance for any funny formatting, my boss only did a crash course in CSS.</p>
 									<p>I am a simple minded program intended to provide you with relevant information and issues to consider when estate planning.</p>
 									<p>I am not a qualified lawyer (you need a law degree and some work experience which is a bit hard for a computer program to obtain), so while the information I am providing you may be true and correct, it should not be seen as legal advice. In fact, if you use Dr Google and search deep enough, you may be able to find most of the information I am going to tell you. My purpose is just to make your life slightly easier by outlining information specific to you in an easy to understand way.</p>
-									<p>Neither does anything I say constitute a lawyer-client relationship between my boss and you</p>
+									<p>Neither does anything I say constitute a lawyer-client relationship between my boss and you.</p>
 									<p>I also only understand the laws of Australia, so if you would like to learn about estate planning for assets overseas, do consider contacting a specialist lawyer in the relevant country you are interested in. If you are curious about what is needed in relation to an estate plan for Australian assets, then listen along!</p>
 									<p>Oh, also, my lawyer boss is telling me to strongly recommend you seek formal legal advice in relation to your estate planning arrangements if you want a human to be held accountable for any errors or issues missed (although you may be deceased when an issue arises).</p>
 									<p>By the way, I want to keep learning so our conversations may be retained so that I can understand what I need to know to be of use for the wider public. If we collect any of your personal information, it will be subject to the following privacy policy - <a href="https://hh-legal.com.au/privacy/" target="_blank" rel="noopener">https://hh-legal.com.au/privacy/</a>.</p>
@@ -118,12 +118,9 @@
 											</div>
 											</div>
 								</div>
-							</section>
-
 						<!-- Learn about estate planning - shows if 1.12 equals learn about estate planning -->
 								<div id="QuestionsEP">
 									<div class="container">
-									<!--Learn about estate planning section-->
 									<!--Start Fact Find-->
 									<h3>Learn about estate planning</h3>
 									<p>So that I can understand what’s important and relevant to you, can you please answer a few quick questions.</p>
@@ -240,8 +237,10 @@
 												<ul class="actions">
 													<li id="Q221JointAssetsYesButton"><input type="button" class="special" value="Yes" onclick="handleQ221JointAssetsYesButton()"/></li>
 													<li id="Q221JointAssetsNoButton"><input type="button" class="special" value="No" onclick="handleQ221JointAssetsNoButton()"/></li>
+													<li id="Q221JointAssetsUnsureButton"><input type="button" class="special" value="Unsure" onclick="handleQ221JointAssetsUnsureButton()"/></li>
 												</ul>
 										</div>
+									<p><p id="Q221JointButtonUnsure">That's okay if you don't know if you own assets jointly with anyone. I will briefly outline later on the consequences of owning an asset jointly with someone in the context of your estate plan.</p>
 									<p><p id="Q221A">Do you know how you own those joint assets with your co-tenant? That is, do you know if the asset is held as joint tenants or tenants in common?</p>
 									<div id="Q221B" class="12u">
 												<ul class="actions">
@@ -259,7 +258,7 @@
 													<li id="Q225CompaniesNoButton"><input type="button" class="special" value="No" onclick="handleQ225CompaniesNoButton()"/></li>
 												</ul>
 										</div>
-									<p>Do you control or have an interest any trust (whether directly or indirectly)?</p>
+									<p>Do you control or have an interest in any trust (whether directly or indirectly)?</p>
 									<div class="12u">
 												<ul class="actions">
 													<li id="Q226TrustsYesButton"><input type="button" class="special" value="Yes" onclick="handleQ226TrustsYesButton()"/></li>
@@ -384,9 +383,9 @@
 										<li>Simple Wills are simple, but they don’t factor in potential concerns you may have for intended beneficiaries. Say you want people to receive assets in a protected environment. Reasons for this may be that the intended people are ‘risky’ individuals (whether due to their profession or being a director of a business) and they should receive assets in a protected environment rather than in their name (to protect the assets against a potential lawsuit).</li>
 										<li id="Q2418to30ParagraphA">Just because you’re young and potentially in debt to the banks or the government, does not mean that you do not need a Will. Whilst not accessible for you right now, your superannuation and any life insurance will form part of your estate. This could still be a sizeable amount and should be properly considered.</li>
 										<li id="Q27DefactoYesParagraphA">So you’re in a de facto relationship. Did you know certain de facto relationships means that your partner receives your assets if you pass away without a Will. This means that if you had assets that you wanted to pass to your family, it could go to your current partner. Having a Will means being able to confirm what assets go where, and not letting the law (which changes depending where you live) get in the way.</li>
-										<li id="Q29Q13YesParagraphA"> Marriage can potentially affect any Will you have prepared. It might affect it in a manner that you would like, but why risk it changing it for the worst? Get a Will that contemplate or considers your marriage, and have it be clear on what happens to your assets.</li>
+										<li id="Q29Q13YesParagraphA"> Marriage can potentially affect any Will you have prepared. It might affect it in a manner that you would like, but why risk it changing for the worst? Get a Will that contemplate or considers your marriage, and have it be clear on what happens to your assets.</li>
 										<li id="Q216MinorChildrenYesParagraphE">Children impacts the distribution of your assets if you pass away. While that may be fine (I mean why else are you working), if you have a partner, it might mean your partner receives less and your children receiving part of their share. As with most things, this can change from State to State.</li>
-										<li id="Q216MinorChildrenYesParagraphC">Do you trust giving your assets straight to your children and hoping they make the right decisions when they turn 18 in relation to their inheritance? If you do, that’s great. However, you can ensure there is some guidance for your children in relation to their inheritance by having a trusted family member look after your children’s inheritance. The word is ‘testamentary trust’ and we will briefly discuss this later on.</li>
+										<li id="Q216MinorChildrenYesParagraphC">Do you trust giving your assets straight to your children and hoping they make the right decisions when they turn 18 in relation to their inheritance? If you do, that’s great. However, you can ensure there is some guidance for your children in relation to their inheritance by having a trusted family member look after your children’s inheritance. The phrase you need to know is ‘testamentary trust’ and we will briefly discuss this later on.</li>
 										<li id="Q221JointAssetsYesParagraphA">Reminder if you have heard it before, otherwise a new announcement for you. If you own assets jointly with someone, you need to know what happens to your share if you pass away. This can be discussed with a lawyer when doing your estate plan if you wish. The difference is in one situation your interest passes to the other co-owner, in the other instance, your interest passes under your Will.</li>
 										<li id="Q225Q226YesParagraphA">Having related entities can be complex. There are issues if you have loans to and from these related entities, but you also need to know that assets held in these entities do not form part of your Will. You need to ensure you understand how control in these entities pass if you die. Because additional documentation may be required so that the business in a company, or property in a trust passes to the people you intend them to. Don’t assume that they will.</li>
 										<li id="Q229BusinessYesParagraphA">Have you considered what happens to your business if you pass away? If not, then you need to. Whether it is putting in place succession mechanisms or grooming an employee to take over, if you care for the business to continue (whether it is for the benefit of your family or not), you need to ensure the value doesn’t tank if you were to unexpectedly pass away.</li>
@@ -420,12 +419,12 @@
 										<li>If your executor does not follow their duty, they may have to pay out of their own pocket to correct their mistake.</li>
 									</ul>
 									<p>So, whoever you appoint as your executor needs to be aware that if they act in an incorrect manner, they may have to pay out of their own pocket. So, just do…the right thing. <img src="http://logok.org/wp-content/uploads/2014/03/Nike-logo.png" /height="42" width="42"></p>
-									<p>Some questions you might want to consider when appointing your executor.</p>
+									<p>Some questions you might want to consider when appointing your executor:</p>
 									<ul>
 										<li>Who would you like to appoint as executor of your estate if you pass away?</li>
 										<li>Who would you like to appoint as a backup executor of your estate?</li>
 										<li>You can appoint multiple people (up to a maximum of four), but ultimately, the more people you appoint, the more they will each have to liaise with each other as they must make decisions jointly and all sign necessary transfer documents as executor for your estate.</li>
-										<li>You could even appoint a professional to act as executors, you will just need to be aware that your estate may be charged a fee for their service</li>
+										<li>You could even appoint a professional to act as your executor, you will just need to be aware that your estate may be charged a fee for their service.</li>
 									</ul>
 									<!--About the executor-->
 									</div>
@@ -444,7 +443,7 @@
 									<p>If your Will does not nominate a guardian, then again, unnecessary costs and delays may be incurred to have a Court nominate an appropriate person to act as legal guardian for your children.</p>
 									<p>So think about who you would like to appoint to act as guardian for your minor children.</p>
 									<p>Think about if there are any backup persons you would like to appoint as guardian.</p>
-									<p>Again, you can have multiple guardians, but, if you do, then it is worth making sure your guardians are able to work together (whilst also considering the practical implications if there are multiple guardians who all live in separate locations). If you want a fictional example of parents who did not consider the teamwork required for guardians, have a watch of the 2010 Katherine Heigl and Josh Duhamel movie, <a href="http://www.imdb.com/title/tt1055292/" target="_blank" rel="noopener">Life as we know it</a>.</p>
+									<p>Again, you can have multiple guardians, but, if you do, then it is worth making sure your guardians are able to work together (whilst also considering the practical implications if there are multiple guardians who all live in separate locations). If you want a fictional example of parents who did not consider the teamwork required for guardians, have a watch of the 2010 Katherine Heigl and Josh Duhamel movie, <a href="http://www.imdb.com/title/tt1055292/" target="_blank" rel="noopener">Life As We Know It</a>.</p>
 									<p>If you see a lawyer when drafting a Will, do consider if there are appropriate financial assistance provisions in your Will that enable your guardians to receive compensation for caring for your children.</p>
 									<p>It might be you have a structure set up in your Will that enables income to be paid to your minor children or to the guardians on behalf of the minor children. More on that later, but there are appropriate strategies in ensuring your children benefit from your estate without having their guardians be out of pocket.</p>
 									<p><p id="Q217Yes">Further, additional care may be taken to ensure your child with special needs (even if they are over 18) are also cared for in an appropriate manner and any assets to be given to them managed accordingly.</p>
@@ -465,9 +464,9 @@
 									<p>For example:</p>
 									<ul>
 										<li><!--Generic option--> Passing away without a Will means you die ‘intestate’. That means the law determines who benefits. Whoever benefits under the law will change from State to State. It will then change depending on if you are married, or have children. Reduce the uncertainty, even just preparing a basic Will is better than leaving it up to the law to decide.</li>
-										<li>Your superannuation does not automatically form part of your estate. Forms are needed to be signed to have your superannuation automatically form part of your estate. Where no form is signed, then it is the responsibility for your executor to liaise with the trustee of your superannuation fund to see if your superannuation can be paid into your estate. This will cause delays that could be reduced by having a form signed.</li>
+										<li>Your superannuation does not automatically form part of your estate. Forms are needed to be signed to have your superannuation automatically form part of your estate. Where no form is signed, then it is the responsibility of your executor to liaise with the trustee of your superannuation fund to see if your superannuation can be paid into your estate. This will cause delays that could be reduced by having a form signed.</li>
 										<li id="Q227SMSFYes">Where you control a self-managed superannuation fund (an SMSF), care needs to be taken to ensure control of this entity passes appropriately if you do not have necessary forms prepared.</li>
-										<li id="Q27Q29Q210Yes">Did you know marriage, and even entering into a de facto relationship may impact who benefits if you pass away without a Will? Even further, if you have a Will, marriage and entering into a de facto relationship may potentially impact certain provisions from your previous Will creating uncertainty.</li>
+										<li id="Q27Q29Q210Yes">Did you know marriage, and even entering into a de facto relationship, may impact who benefits if you pass away without a Will? Even further, if you have a Will, marriage and entering into a de facto relationship may potentially impact certain provisions from your previous Will creating uncertainty.</li>
 										<li id="Q218Yes">Did you know having children may impact how assets are distributed if you pass away without a Will? This will differ from State to State but in Queensland, your estate is shared between your partner and surviving children. You need to be aware what the laws say where you are based if you pass away without a Will, as it may not align with what you intend. Please note the laws may change depending where you live.</li>
 										<li id="Q213Yes"> If you want your partner to benefit from your entire estate, and you pass away without a Will, in Queensland at least your estate is shared between your partner and surviving children. You need to be aware what the laws say where you are based if you pass away without a Will, as it may not align with what you intend. Please note the laws may change depending where you live.</li>
 										<li id="Q221Yes">If you wanted your share in the property that you own jointly with your co-tenant to pass to a particular person other than your co-tenant, and that asset is held as joint tenants, then your co-tenant will actually receive your share in your estate automatically. This needs to be contrasted if you held your share in the property as tenants in common.</li>
@@ -476,11 +475,11 @@
 										<li id="Q230Yes">You need to consider what happens to your interest in your business if you pass away. Will your partner siphon money and clients away to a new business for their own benefit, or will your family cause tension with the ongoing operation of the business once you pass away? These are questions that don’t have to arise if you put in place proper documents to consider this.</li>
 										<li id="Q231Yes">The law changes from country to country. Just as I don’t want you to assume the rules where you live, I don’t want you to assume how your assets overseas will pass. You should consider contacting a specialist lawyer in the jurisdiction where you hold your overseas assets to ensure there are certainty and clarity on how assets pass.</li>
 									</ul>
-									<p>Some broad things you need to appreciate are as follows.</p>
+									<p>Some broad things you need to appreciate are as follows:</p>
 									<ol>
 										<li>Your Will only deals with assets you own directly.</li>
 										<li>Even if you own assets directly, if they are held as joint tenants with someone else, they do not fall under your Will (or even the relevant succession act laws if you pass away without a Will).</li>
-										<li>In contrast interests in a trust, company, superannuation (including a self-managed superannuation fund), partnership or business may not automatically be dealt with if you pass away, and may not even be governed through a Will.</li>
+										<li>In contrast, interests in a trust, company, superannuation (including a self-managed superannuation fund), partnership or business may not automatically be dealt with if you pass away, and may not even be governed through a Will.</li>
 										<li>Additional documents (on top of your Will) are then required to be prepared to manage your related entities (if any).</li>
 										<li>Get a separate Will for any assets you may own overseas.</li>
 									</ol>
@@ -505,15 +504,15 @@
 									<p><p id="Q222NotSureButtonE">The question you must if you own your asset as joint tenants is as follows – do you want your co-owners to receive the property if you pass away. If yes, then you might not need to do anything, if no, then you need to take steps to make your ownership to be held as tenants in common. This, of course, means discussing this with your co-owners.</p>
 									<p><p id="Q222JointButtonA">There are two ways you can own jointly held assets.</p>
 									<p><p id="Q222JointButtonB">The first is as joint tenants and the second is as tenants in common.</p>
-									<p><p id="Q222JointButtonC">A title search of the relevant property normally confirms how joint assets are held (you have to pay for that search if you don’t have an up to date one).</p>
+									<p><p id="Q222JointButtonC">A title search of the relevant property normally confirms how joint assets are held (you have to pay for that search if you don’t have an up-to-date one).</p>
 									<p><p id="Q222JointButtonD">Owning an asset as joint tenants mean that you and each other co-owner completely owns the asset (you both have a 100% interest in the asset).</p>
 									<p><p id="Q222JointButtonE">Owning an asset as tenants in common means that you and your co-tenant has a distinct share in the asset (for example, 50% each).</p>
 									<p><p id="Q222JointButtonF">This impacts on how the joint asset passes under your estate plan.</p>
-									<p><p id="Q222JointButtonG">Specifically, if you own an asset as joint tenants with your co-tenant and you pass away, then your co-tenant will automatically receive the asset and it cannot be distributed under your will (this is because your co-tenant also owns 100% of the asset).<p>
+									<p><p id="Q222JointButtonG">Specifically, if you own an asset as joint tenants with your co-tenant and you pass away, then your co-tenant will automatically receive the asset and it cannot be distributed under your Will (this is because your co-tenant also owns 100% of the asset).<p>
 									<p><p id="Q222JointButtonH">In contrast, if you own an asset as a tenant in common with your co-tenant, your distinct share may be gifted under your Will (or distributed under the succession law where you live if you don’t have a Will).</p>
 									<p><p id="Q222JointButtonYes">You need to appreciate this as you may need to take steps to separately ensure your jointly held assets pass as you intend.</p>
-									<p><p id="Q222JointButtonNo">You need to appreciate this as when you buy an asset jointly with some, you will need to consider how you want that asset to pass if you are deceased.</p>
-									<p>Unrelated to estate planning, people may prefer one way of owning an asset compared to another as it reduces the risk of the relevant owner. For example, if you own an asset as joint tenants with another person. If the other co-owner is sued, then because the co-owner 100% owns the asset jointly with you, the entire asset may be at risk if sold as a result of a litigation.</p>
+									<p><p id="Q222JointButtonNo">You need to appreciate this as when you buy an asset jointly with someone, you will need to consider how you want that asset to pass if you are deceased.</p>
+									<p>Unrelated to estate planning, people may prefer one way of owning an asset compared to another as it reduces the risk of the relevant owner. For example, if you own an asset as joint tenants with another person, if the other co-owner is sued, then because the co-owner 100% owns the asset jointly with you, the entire asset may be at risk if sold as a result of a litigation.</p>
 									<h4>Other personal assets</h4>
 									<p>Other than the exception in relation to assets held as joint tenants, your personal assets are covered under your Will. This includes (but is not limited to):</p>
 									<ol>
@@ -538,16 +537,16 @@
 										<li>by way of right of occupancy.</li>
 									</ol>
 									<p>I’ll just discuss about the direct option and through a testamentary trust.</p>
-									<p>The other two options are too advanced for me and can be quite complicated in its operation.</p>
+									<p>The other two options are too advanced for my programming and can be quite complicated in its operation.  Please consider discussing these options with a qualified if you are interested in learning more.</p>
 									<p>Giving an asset directly to someone under your Will is the simplest option to structure your Will. This means any asset passes straight to the intended beneficiary. It means the intended beneficiary receives the asset in their name and they do what they want with the asset in whatever manner they wish.</p>
 									<p>Whilst this is great as it’s simple and cost effective, if you have beneficiaries who do not wish to receive assets in their names (think people who get sued all the time, or might get sued by way of being in a high risk occupation), giving them assets may cause them more headaches than not.</p>
 									<p>At the end of the day, they should be happy to receive something from your estate, but if you want, you can consider where they come from and pass your assets into a testamentary trust for the beneficiary to control and benefit from.</p>
 									<p>You might be thinking what a testamentary trust is. In short, a testamentary trust is a trust established under your Will. Going further, a trust is a relationship between someone who holds assets (being the legal owner of the asset and called the ‘trustee’) for the benefit of other people (being the beneficial owner of the asset and called the ‘beneficiaries).</p>
-									<p>It is also the hot topic for estate planners in recent times. The structure can potentially offer asset protection, tax planning and succession planning benefits for individuals their families.</p>
+									<p>It is also the hot topic for estate planners in recent times. The structure can potentially offer asset protection, tax planning and succession planning benefits for individuals and their families.</p>
 									<p>Here are some examples:</p>
 									<ul>
-										<li id="Q2729210No">An intended beneficiary considers themselves as a high-risk individual due to the nature of their work (for example, they are a surgeon, accountant or lawyer). The beneficiary wants to own as little assets as possible due to a potential claim against them personally. Giving assets into a testamentary trust allows the beneficiary to receive assets in an entity separate from them so they are not assets of the beneficiary if a law suit rises, but, the beneficiary can still benefit from the assets.</li>
-										<li id="Q27Q29Q210YesA">An intended beneficiary considers themselves as a high-risk individual due to the nature of their work (for example, they are a surgeon, accountant or lawyer). The beneficiary wants to own as little assets as possible due to a potential claim against them personally. Giving assets into a testamentary trust allows the beneficiary to receive assets in an entity separate from them so they are not assets of the beneficiary if a law suit rises, but, the beneficiary can still benefit from the assets.</li>
+										<li id="Q2729210No">An intended beneficiary considers themselves as a high-risk individual due to the nature of their work (for example, they are a surgeon, accountant or lawyer). The beneficiary wants to own as little assets as possible due to a potential claim against them personally. Giving assets to a testamentary trust allows the beneficiary to receive assets in an entity separate from them so they are not assets of the beneficiary if a law suit rises, but, the beneficiary can still benefit from the assets.</li>
+										<li id="Q27Q29Q210YesA">An intended beneficiary considers themselves as a high-risk individual due to the nature of their work (for example, they are a surgeon, accountant or lawyer). The beneficiary wants to own as little assets as possible due to a potential claim against them personally. Giving assets to a testamentary trust allows the beneficiary to receive assets in an entity separate from them so they are not assets of the beneficiary if a law suit rises, but, the beneficiary can still benefit from the assets.</li>
 										<li id="Q213No">You want to give assets to a someone who has or may have children in the future. Giving assets into a testamentary trust structure provides some tax planning opportunities for the intended beneficiary and their family to invest the assets transferred into the trust and having the income generated from the investment distributed to themselves and their family. There is a specific tax provision that states income generated from a deceased estate may be distributed to minors, and those minors will be taxed as if they were adults. This means the intended beneficiary doesn’t have to pay tax on such amounts at their tax rate, but they can give some income to their children to pay on separate tax-free thresholds instead.</li>
 										<li id="Q16Q18Yes">You want to give assets to your children, but you do not believe them to be responsible enough to receive full control of the assets. You fear they may blow all the money on <a href="https://www.youtube.com/watch?v=5l3ipKcnYlQ" target="_blank" rel="noopener">blackjack and hookers</a>. You give the relevant assets into a testamentary trust and you give control jointly between your respective children and a responsible family member (such as a sibling). This way, your children will not blow all the money as they need to liaise with another family member. This helps protect their inheritance.</li>
 										<li id="Q213YesA">You want to give assets to your children, but you just don’t trust the relationship they are in, or the relationship they might be in. You can give your assets into a testamentary trust structured appropriately to reduce the risk of the relevant spouse receiving any of your hard earned assets.</li>
@@ -569,7 +568,6 @@
 										<li>Should you have multiple persons control the relevant testamentary trust?</li>
 									</ul>
 									<p>As if it wasn’t clear enough, testamentary trusts are complicated and are not able to be generated from do-it-yourself Wills. You should contact a legal specialist if you want to know more and whether it can benefit your family.</p>
-									<!--Option section end-->
 									<h4>Planning how to pass your personal gifts</h4>
 									<p>Appreciate there are many other ways people can receive a gift under your Will, but you should talk to a lawyer about the method most appropriate.</p>
 									<p>Separate from how gifts are received is how you actually make the gift.</p>
@@ -1004,7 +1002,6 @@
 
 						<!-- Final comments -->
 								<div class="container">
-									<!--Final comments.  Hidden unless continue selected for the last generating section-->
 								<div id="FC">
 									<h3>Final comments</h3>
 									<p>Look, we have only covered the general concepts of estate planning.</p>
@@ -1035,7 +1032,6 @@
 									<p>They also generally relate to minor health decisions, but the matters they cover will differ from State to State.</p>
 									<p>There are also some other health documents called advance health directives that you should consider walking through with a doctor so that there is clarity on what should happen to you if you were to be in a critical health condition.</p>
 								</div>
-									<!--Below section shows after yes/no selected-->
 									<div id="EPAFinal">
 									<p>Do note that the rules relating to powers of attorney will change from State to State so do discuss this with your lawyer, or even just google the Government’s website first for some information. We’ll provide a link about power of attorney documents below. Do consider looking up ‘advanced health directive’ or discussing it with your doctor.</p>
 									<p>Here's a link to enduring power of attorney documents based on the State you have told me where you live in:</p> 
@@ -1064,14 +1060,15 @@
 										</div>
 									</div>
 								<!--Final comments end-->
-							</section>
+						</section>	
 							</div>
 
 
+
 						<!-- Receive a free Do It Yourself Will template -->
-							<section id="three">
-								<div class="container">
 								<div id="DIYWill">
+						<section id="three">
+								<div class="container">
 								<!--DIY Will Kit.  Hidden unless continue DIY Will Kit boxes selected (at 16.29 or 1.12) -->
 									<h3>Do It Yourself Will Kit</h3>
 									<p>Alright, so you want a ‘do it yourself’ (I’ll call it DIY) Will.</p>
@@ -1212,10 +1209,8 @@
 										<p>If you found me useful, please share me with your friends and families so that I can help guide them through what may be relevant for their estate plan.</p>
 										<p>Remember, everything I have said is free knowledge that you should know so that you can make an informed decision.</p>
 										<p>Having said that, it is not legal advice, and you should discuss your own estate plan with an estate planning specialist.</p>
-									</div>
-								</div>
 								</section>	
-
+									</div>
 
 
 
@@ -1581,6 +1576,7 @@
 					</section>
 
 			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

@@ -585,6 +585,7 @@ function handleQ220ExistingWillNoButton() {
 
 function handleQ221JointAssetsYesButton() {
 	document.getElementById('Q221JointAssetsNoButton').style.display = "none";
+	document.getElementById('Q221JointAssetsUnsureButton').style.display = "none";
 	document.getElementById('Q221JointAssetsYesParagraphA').style.display = "list-item";
 	document.getElementById('Q221Yes').style.display = "list-item";
 	document.getElementById('Q221A').style.display = "inline";	
@@ -593,6 +594,22 @@ function handleQ221JointAssetsYesButton() {
 
 function handleQ221JointAssetsNoButton() {
 	document.getElementById('Q221JointAssetsYesButton').style.display = "none";
+	document.getElementById('Q221JointAssetsUnsureButton').style.display = "none";
+	document.getElementById('Q222JointButtonA').style.display = "inline";
+	document.getElementById('Q222JointButtonB').style.display = "inline";
+	document.getElementById('Q222JointButtonC').style.display = "inline";
+	document.getElementById('Q222JointButtonD').style.display = "inline";
+	document.getElementById('Q222JointButtonE').style.display = "inline";
+	document.getElementById('Q222JointButtonF').style.display = "inline";
+	document.getElementById('Q222JointButtonG').style.display = "inline";
+	document.getElementById('Q222JointButtonH').style.display = "inline";
+	document.getElementById('Q222JointButtonNo').style.display = "inline";
+}
+
+function handleQ221JointAssetsUnsureButton() {
+	document.getElementById('Q221JointAssetsYesButton').style.display = "none";
+	document.getElementById('Q221JointAssetsNoButton').style.display = "none";
+	document.getElementById('Q221JointButtonUnsure').style.display = "inline";
 	document.getElementById('Q222JointButtonA').style.display = "inline";
 	document.getElementById('Q222JointButtonB').style.display = "inline";
 	document.getElementById('Q222JointButtonC').style.display = "inline";
